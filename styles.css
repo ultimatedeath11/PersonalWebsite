@@ -1,0 +1,28 @@
+#Selfie{
+
+}
+
+body{
+
+}
+#NavigationBar{
+  display: inline;
+  padding: 15px;
+  background-color: #b0e2ff;
+  width: 100%;
+}
+
+#ProjectList {
+  background-color: #999999;
+  width: 100%;
+  height:120px;
+}
+h3{
+  padding-top: 30px
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+#SubscriptionForm{
+  margin-bottom: auto;
+}

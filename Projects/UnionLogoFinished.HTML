@@ -140,6 +140,7 @@ body {
         logoGeomOutside.faces = facesOuter;
         logoGeomOutside.computeFaceNormals();
 
+        //TODO: Make sure that the color Matches the RGB of official logo
         var logoMaterialOutside = new THREE.MeshLambertMaterial({
           color:0xab0533,
           side: THREE.DoubleSide,
@@ -153,6 +154,7 @@ body {
         logoGeom.faces = facesInner;
         logoGeom.computeFaceNormals();
 
+        //TODO: Make sure that the color Matches the RGB of official logo
         var logoMaterial = new THREE.MeshLambertMaterial({
           color: 0xab0535,
           side: THREE.DoubleSide,

@@ -1,20 +1,39 @@
-div.Selfie{
-  top: 3000px;
+#Selfie {}
+
+.NavBar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(50px, auto);
+    grid-auto-columns: minmax(50px,auto);
+
+}
+.NavBar > div{
+    background-color:#b0e2ff;
+    border:#333 1px solid;
+    padding:1em;
 }
 
-body{
-
-}
-div.ProjectList {
-  background-color: #999999;
-  width: 750px;
-  height:1000px;
-}
-h3{
-  position: absolute;
-  height: auto;
+/*
+#NavigationBar{
+  display: inline;
+  padding: 15px;
+  background-color: #b0e2ff;
   width: 100%;
 }
-div.SubscriptionForm{
-  
+*/
+
+#ProjectList {
+    background-color: #999999;
+    width: 100%;
+    height: 140px;
+}
+
+h3 {
+    padding-top: 30px width: 100%;
+    height: 100%;
+}
+
+#SubscriptionForm {
+    margin-bottom: auto;
 }

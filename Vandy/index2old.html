@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>	
+<body>
+<div class="index-image">
+  <div class="index-text">
+	<h1>Enviroment Simulator</h1>
+	<p>Vandy Hacks 2017</p>
+	  <a href="#program"><p class="button">Try It Out!</p></a>
+	  <a href="#team"><p class="button">Meet the Team!</p></a>
+	  <a href="#feedback"><p class="button">Leave Feedback!</p></a>
+  </div>
+</div>
+
+  <p class="firstimage"><img src="images/wowza-smaller.png"</p>
+	  <a name="program"><h2>The Program</h2></a>
+		<p class="explination"><b>What It Does:</b> Simulates a controlled environment over time that is passed from user.</p>
+		<form class="Simulation runner" action="index.php" method="post">
+			<div class="try"><b>Try it out:</b></div>
+
+            <select name="number">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+            <select>
+                <option value="days">days</option>
+                <option value="weeks">weeks</option>
+                <option value="month">month</option>
+                <option value="year">year</option>
+            </select>
+            <!-- TODO: write a button for submitting it to the PHP and redirect to the correct page. -->
+        </form>
+        <br><hr>
+        <p class="secondimage"><img src="images/wowza-smaller.png"</p>
+			<a name="team"><h2>Meet the Team</h2></a>
+		<p class="desc">We're a group of computer science and IT majors from Union University.<br><br>
+		group from left to right: yada yada yada</p>
+		<br><hr>
+		<a name="feedback"><form class="feedback"></a>
+		<textarea name="message" rows="10" cols="30">
+	We'd love to hear your opinions.
+		</textarea>
+		</form>
+		<br>
+</body>
+</html>

@@ -1,11 +1,12 @@
 <html>
 <body>
 
-<?php $myfile = fopen("emailList.txt","a");
-$txt = $_POST["email"];
-fwrite($myfile,$txt);
-fwrite($myfile,"\n");
-fclose($myfile);
+<?php
+    $myfile = fopen("emailList.txt","a");
+    $txt = $_POST["email"];
+    fwrite($myfile,$txt);
+    fwrite($myfile,"\n");
+    fclose($myfile);
  ?>
 
 

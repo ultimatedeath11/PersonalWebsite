@@ -232,4 +232,3 @@ function helecopterinit() {
       window.addEventListener('keydown', onKeyDown, false);
       document.getElementById("output").appendChild(renderer.domElement);
     }
-    window.onload = helecopterinit;

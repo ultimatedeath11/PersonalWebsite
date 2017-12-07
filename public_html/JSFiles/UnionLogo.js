@@ -31,6 +31,7 @@ function logoinit() {
     scene.add(spotLight, spotLight2, spotLight3, spotLight4, spotLight5, spotLight6);
     //Model
 
+    var texture = THREE.ImageUtils.loadTexture("https://student-noah-franck.000webhostapp.com/Textures/logos.jpg");
 
     var sphere = new THREE.Mesh(new THREE.SphereGeometry(600, 600, 600), new THREE.MeshLambertMaterial({
         color: 'skyblue',
@@ -40,6 +41,7 @@ function logoinit() {
     sphere.position.set(0, -100, 0);
     scene.add(sphere);
 
+    var dogTexture = THREE.ImageUtils.loadTexture("https://student-noah-franck.000webhostapp.com/Textures/UUBusterBullDog.png");
 
     var dogPlane = new THREE.Mesh(new THREE.PlaneGeometry(45, 45, 25, 25), new THREE.MeshLambertMaterial({
         side: THREE.BackSide,
